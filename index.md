@@ -5,33 +5,38 @@ The Patient Protection and Affordable Care Act (ACA) of 2010 penalizes health sy
 Readmission rates, defined by the Centers for Medicare and Medicaid Services (CMS), are a risk-standardized rate of unplanned all-cause readmission after admission for any condition within 30 days of hospital discharge. The indicator is a single summary score that comprises risk-standardized rates of different hospital cohorts e.g. general medicine, surgery/gynecology, cardiorespiratory, cardiovascular, neurology, oncology, and psychiatry. The indicator is calculated by 1-year data and influences reimbursement decisions. 
 
 
-## Project Scope
+## Project Scope and Data Set 
 
-This project aims to improve upon OSF Healthcare’s current Readmission Risk Model in a meaningful and functionally significant manner by focusing effort on disease specific subsets of the data.  The current production system uses a combination of four sub-models to predict admitted inpa-tient risk of a CMS defined 30-day all-cause readmission.  Training occurred on the general inpa-tient population.  This project focuses on the Heart Failure subset of inpatient admissions with an end goal of creating a Heart Failure specific readmission model that is both an improvement to the current model’s performance on the Heart Failure sub-population and is deployable within our existing production infrastructure.
+This project aims to predict the readmission within 30 days of patients at the moment of discharge. You are provided a labeled data set with the following characteristics. 
+*. Sample Size: 4320  
+*. Number of readmission case : 777  
+*. The ratio of readmission case is 17.9%, and thus the dataset is imbalanced  
+*. Number of features: 832
+*. Binary (Nominal) Variable: 501
+*. Ordinal Variable: 2
+*. Interval Variable: 329
 
-```markdown
-# Models
-- Logistic Regression
-- Random Forrest
-- Support Vector Machine
-
-# Approach
+### Approach
 - Data Cleaning
 - Feature Selection
 - Model Selection
-- Training Model
+- Training Model (k-fold)
 - Validating / Testing the Model
 
-# Download Data
-- Data Set
-- Data Dictionary
-- ...
 
-```
+### Classification Models
+- Logistic Regression
+- Random Forrest
+- Support Vector Machine
+- other you can choose 
 
-[link](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
+### Data
 
-Features to begin with:
+- [Sample Data Set](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
+- [Data Set] (https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
+- [Data Dictionary](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
+
+### Features to begin with:
 - **CMSReadmit [Label]**
 - IPCount180, 
 - MedsVisitBetaBlockers,
