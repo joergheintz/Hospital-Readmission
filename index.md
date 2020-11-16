@@ -17,27 +17,4 @@ We recommend you to start with scanning the sample data set, and then start wtih
 
 ### Features to begin with:
 - **CMSReadmit [Label]**
-- IPCount180
-- MedsVisitBetaBlockers
-- HCC_CongestiveHeartFailure
-- MedsVisitAnalgesicsNonnarcotic
-- EDCount90
-- BmiClassSpecific
-- Meds12mo_MedicalDevicesRAW
-- IPCount60
-- PastIP2IPReadmitRate
-- HCC_DialysisStatus
-- Meds12mo_AntidotesRAW
-- Meds12mo_AntihyperlipidemicRAW
-- PCP_Listed
-- HCC_CoagulationDefects
-- Meds12mo_VitaminsRAW
-- Meds12mo_CardiovascularRAW
-- LOS
-- MedsVisitAntianginalAgentsRAW,
-- Obs2Obs180
-- PastIP
-- Meds12mo_AntihypertensiveRAW
-- OPCount180 
-- HCC_AcuteRenalFailure
-- IPCount365
+- IPCount180, MedsVisitBetaBlockers, HCC_CongestiveHeartFailure, MedsVisitAnalgesicsNonnarcotic, EDCount90, BmiClassSpecific, Meds12mo_MedicalDevicesRAW, IPCount60, PastIP2IPReadmitRate, HCC_DialysisStatus, Meds12mo_AntidotesRAW, Meds12mo_AntihyperlipidemicRAW, PCP_Listed, HCC_CoagulationDefects, Meds12mo_VitaminsRAW, Meds12mo_CardiovascularRAW, LOS, MedsVisitAntianginalAgentsRAW, Obs2Obs180, PastIP, Meds12mo_AntihypertensiveRAW, OPCount180, HCC_AcuteRenalFailure, IPCount365
