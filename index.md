@@ -34,7 +34,7 @@ This project aims to predict the readmission within 30 days of patients at the m
 
 - [Sample Data Set](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
 - [Data Set](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/OSF_Readmission_Data.csv)
-- [Data Dictionary](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/HF Readmission Intern Project Data Dictionary.xlsx)
+- [Data Dictionary](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/Dictionary.xlsx)
 
 ### Features to begin with:
 - **CMSReadmit [Label]**
