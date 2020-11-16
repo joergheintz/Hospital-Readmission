@@ -29,3 +29,31 @@ This project aims to improve upon OSF Healthcare’s current Readmission Risk Mo
 
 [https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv](url) and ![Image](src)
 ```
+
+Features to begin with:
+- **CMSReadmit [Label]**
+- IPCount180, 
+- MedsVisitBetaBlockers,
+- HCC_CongestiveHeartFailure,
+- MedsVisitAnalgesicsNonnarcotic,
+- EDCount90,
+- BmiClassSpecific,
+- Meds12mo_MedicalDevicesRAW, 
+- IPCount60,
+- PastIP2IPReadmitRate,
+- HCC_DialysisStatus,
+- Meds12mo_AntidotesRAW,
+- Meds12mo_AntihyperlipidemicRAW, 
+- PCP_Listed,
+- HCC_CoagulationDefects,
+- Meds12mo_VitaminsRAW, 
+- Meds12mo_CardiovascularRAW,
+- LOS,
+- MedsVisitAntianginalAgentsRAW,
+- Obs2Obs180, 
+- PastIP,
+- Meds12mo_AntihypertensiveRAW, 
+- OPCount180, 
+- HCC_AcuteRenalFailure,
+- IPCount365
+
